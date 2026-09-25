@@ -3,7 +3,7 @@
 Analysis of 99,000+ real e-commerce orders to identify where orders break down in the fulfillment pipeline — from approval through delivery — and to surface actionable recommendations for operations and carrier-facing teams.
 
 ## Tools Used
-- **Excel / Google Sheets** — data cleaning, pivot tables, XLOOKUP joins across tables
+- **Google Sheets** — data cleaning, pivot tables, XLOOKUP joins across tables
 - **Tableau** — interactive 3-view dashboard (exec summary, trend analysis, regional breakdown)
 - **Dataset:** [Olist Brazilian E-Commerce Public Dataset](https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce) (Kaggle)
 
@@ -16,8 +16,8 @@ Roughly **2.3% of all orders (2,341 of 99,441)** fail at one of two distinct poi
 A regional check (by customer state) ruled out a carrier- or region-specific cause: São Paulo, the largest state by order volume (42.0% of all orders), accounted for a proportional 40.4% of problem orders — confirming the issue is platform-wide.
 
 ## Deliverables
-- 📄 [Full Report (Word doc)](./Order_Fulfillment_Analysis.docx) — findings, methodology, and recommendations
-- 📊 [Interactive Tableau Dashboard](#) — *add your Tableau Public link here once published*
+- 📄 [Full Report (Google doc)](./Order_Fulfillment_Analysis.pdf) — findings, methodology, and recommendations
+- 📊 [Tableau Dashboard](.twb)](./Olist-Dashboard.twb) - download and open in Tableau Public/Desktop to view
 
 ## Recommendations
 1. Audit delivery confirmation systems with carrier partners; flag orders with a carrier pickup date but no delivery confirmation 14+ days out.
