@@ -16,8 +16,8 @@ Roughly **2.3% of all orders (2,341 of 99,441)** fail at one of two distinct poi
 A regional check (by customer state) ruled out a carrier- or region-specific cause: São Paulo, the largest state by order volume (42.0% of all orders), accounted for a proportional 40.4% of problem orders — confirming the issue is platform-wide.
 
 ## Deliverables
-- 📄 [Full Report (Google doc)](./Order_Fulfillment_Analysis.pdf) — findings, methodology, and recommendations
-- 📊 [Tableau Dashboard](.twb)](./Olist-Dashboard.twb) - download and open in Tableau Public/Desktop to view
+- 📄 [Full Report (PDF)](./Order_Fulfillment_Analysis.pdf) — findings, methodology, and recommendations
+- 📊 [Tableau Dashboard (.twb)](./Olist-Dashboard.twb) — download and open in Tableau Public/Desktop to view
 
 ## Recommendations
 1. Audit delivery confirmation systems with carrier partners; flag orders with a carrier pickup date but no delivery confirmation 14+ days out.
