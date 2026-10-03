@@ -17,7 +17,7 @@ A regional check (by customer state) ruled out a carrier- or region-specific cau
 
 ## Deliverables
 - 📄 [Full Report (PDF)](./Order_Fulfillment_Analysis.pdf) — findings, methodology, and recommendations
-- 📊 [Tableau Dashboard (.twb)](./Olist-Dashboard.twb) — download and open in Tableau Public/Desktop to view
+- 📊 [Tableau Dashboard (.twb file)](./Olist_Dashboard.twb) — download and open in Tableau Public/Desktop to view. Includes 3 linked views: Executive Summary, Problem Trend, and State Breakdown
 
 ## Recommendations
 1. Audit delivery confirmation systems with carrier partners; flag orders with a carrier pickup date but no delivery confirmation 14+ days out.
