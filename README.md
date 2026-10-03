@@ -8,9 +8,9 @@ Analysis of 99,000+ real e-commerce orders to identify where orders break down i
 - **Dataset:** [Olist Brazilian E-Commerce Public Dataset](https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce) (Kaggle)
 
 ## Key Finding
-Roughly **2.3% of all orders (2,341 of 99,441)** fail at one of two distinct points in the pipeline, and both patterns are consistent across 2017–2018 rather than tied to a single event or season — pointing to systemic process gaps, not one-time issues:
+Roughly **2.3% of all orders (2,341 of 99,441)** fail at one of two distinct points in the pipeline:
 
-- **Post-shipment confirmation gap:** 1,107 orders (1.1%) show a confirmed carrier pickup date but no delivery confirmation date — the package left the warehouse but the delivery loop was never closed.
+- **Post-shipment confirmation gap:** 1,107 orders (1.1%) show a confirmed carrier pickup date but no delivery confirmation date — the package left the warehouse but the delivery loop was never closed. A sharp, isolated spike occurred in this category during February–March 2018, with no equivalent in 2017, suggesting a specific operational event rather than a seasonal pattern.
 - **Post-approval fulfillment failures:** 1,234 orders (1.2%) — 625 canceled and 609 marked unavailable — were approved (payment cleared) before failing, indicating the breakdown happens after checkout, not at the point of sale.
 
 A regional check (by customer state) ruled out a carrier- or region-specific cause: São Paulo, the largest state by order volume (42.0% of all orders), accounted for a proportional 40.4% of problem orders — confirming the issue is platform-wide.
