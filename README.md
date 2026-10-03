@@ -16,7 +16,7 @@ Roughly **2.3% of all orders (2,341 of 99,441)** fail at one of two distinct poi
 A regional check (by customer state) ruled out a carrier- or region-specific cause: São Paulo, the largest state by order volume (42.0% of all orders), accounted for a proportional 40.4% of problem orders — confirming the issue is platform-wide.
 
 ## Deliverables
-- 📄 [Full Report (PDF)](./Order _Fulfillment_Analysis.pdf) — findings, methodology, and recommendations
+- 📄 [Full Report (PDF)](./Order_Fulfillment_Analysis.pdf) — findings, methodology, and recommendations
 - 📊 [Tableau Dashboard (.twb)](./Olist-Dashboard.twb) — download and open in Tableau Public/Desktop to view
 
 ## Recommendations
